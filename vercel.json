@@ -1,0 +1,30 @@
+import React from "react";
+import { MdOutlineCopyright } from "react-icons/md";
+
+const Footer = () => {
+  return (
+    <>
+      <div
+        className="d-flex flex-column px-3 align-items-center font-linkk"
+        style={{ backgroundColor: "#dadada" }}
+      >
+        <br />
+        <div className="h-8 fs-4" style={{ fontWeight: "bold" }}>InterviewIQ</div>
+        <div className="text-muted" style={{ marginBottom: "8px" }}>
+          AI-Powered Interview Emotion Analysis Platform
+        </div>
+        <br />
+        <div className="d-flex align-items-center gap-1 mb-3">
+          <span className="badge bg-dark">Hackathon Project 2024</span>
+        </div>
+        <div className="d-flex align-items-center gap-1">
+          <MdOutlineCopyright className="fs-5" />
+          <span>2024 InterviewIQ. All rights reserved.</span>
+        </div>
+        <br />
+      </div>
+    </>
+  );
+};
+
+export default Footer;
